@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION FORM</title>
+</head>
+
+<body>
+    <h1> ADMISSION FORM </h1>
+    <h2>RANCHI COLLEGE OF ENGINEERING</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+            <br> <br>
+        </div>
+        <div>
+            Birth date: <input type="date" name="myDate">
+            <br> <br>
+        </div>
+        <div>
+            Father's Name: <input type="text" name="myFatherName">
+            <br> <br>
+        </div>
+        <div>
+            Contact No: <input type="tel" name="myContact">
+            <br> <br>
+        </div>
+        <div>
+            Email: <input type="email" name="myEmail">
+            <br> <br>
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+
+        </div>
+        <div>
+            <br> <br> Father's Occupation: <input type="text" name="myOccupation">
+            <br> <br>
+        </div>
+        <div>
+            Percentage Scored in 12th: <input type="number" name="myPercentage">
+            <br> <br>
+        </div>
+        <div>
+            Attach a file of marksheet: <input type="file" name="myMarksheet">
+            <br> <br>
+        </div>
+        <div>
+            Availing Hostel Facility: Yes <input type="radio" name="myHostel"> No <input type="radio" name="myHostel">
+            <br> <br>
+        </div>
+        <div>
+            District: <input type="text" name="myDistrict">
+            <br> <br>
+        </div>
+        <div>
+            State: <input type="text" name="myState">
+            <br><br>
+        </div>
+        <div>
+            <br>
+            <label for="board">Board Appeared</label>
+            <select name="Board Appeared" id="board">
+                <option value="ISC">ISC</option>
+                <option value="CBSE>"selected>CBSE</option>
+                <option value="State">STATE BOARD</option>
+                <option value="NIOS">NIOS</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            If State board mention the name: <input type="text" name="myStateBoard">
+            <br> <br>
+        </div>
+        <div>
+            Write about yourself and why do you want admission: <br>
+            <textarea name="myText" cols="100" rows="10"> </textarea>
+            <br> <br>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
